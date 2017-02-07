@@ -1,7 +1,7 @@
 
 <!--pages/order/order.wxml-->
 <view class="order-wrap">
-  <view wx:if="{{showPart}}">
+  <view hidden="{{!showPart}}">
 
     <!--收货人信息-->
     <view class="order-block">
@@ -56,7 +56,7 @@
       <button type="warn" size="default" bindtap="nextStep"> 下一步 </button>
     </view>
   </view>
-  <view wx:if="{{!showPart}}">
+  <view hidden="{{showPart}}">
 
     <!--配送时间及留言卡片-->
     <view class="order-block">

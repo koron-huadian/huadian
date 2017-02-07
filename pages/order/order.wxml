@@ -1,0 +1,88 @@
+
+<!--pages/order/order.wxml-->
+<view class="order-wrap">
+  <view wx:if="{{showPart}}">
+
+    <!--收货人信息-->
+    <view class="order-block">
+      <text class="block-title">收货人信息</text>
+      <view class="info-list">
+        <text>收货人姓名</text>
+        <input type="text" placeholder="请输入收货人姓名" />
+      </view>
+      <view class="info-list">
+        <text>收货人电话</text>
+        <input type="text" placeholder="请输入收货人电话" />
+      </view>
+      <view class="info-list">
+        <text>收货人地址</text>
+        <input type="text" placeholder="请输入收货人地址" />
+      </view>
+    </view>
+
+    <!--订购人信息-->
+    <view class="order-block">
+      <text class="block-title">订购人信息</text>
+      <view class="info-list">
+        <text>订购人姓名</text>
+        <input type="text" placeholder="请输入订购人姓名" />
+      </view>
+      <view class="info-list">
+        <text>订购人手机</text>
+        <input type="text" placeholder="请输入订购人手机" />
+      </view>
+      <view class="info-list">
+        <text>订购人邮箱</text>
+        <input type="text" placeholder="请输入订购人邮箱" />
+      </view>
+      <view class="choose-option">
+        <text>支付方式</text>
+        <radio-group>
+          <label wx:for="{{payWay}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}" color="#E64340">{{item.value}}</radio>
+          </label>
+        </radio-group>
+      </view>
+      <view class="choose-option">
+        <text>配送选择</text>
+        <radio-group>
+          <label wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}" color="#E64340">{{item.value}}</radio>
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    <view class="order-button">
+      <button type="warn" size="default" bindtap="nextStep"> 下一步 </button>
+    </view>
+  </view>
+  <view wx:if="{{!showPart}}">
+
+    <!--配送时间及留言卡片-->
+    <view class="order-block">
+      <text class="block-title">配送时间及留言卡片</text>
+      <view class="info-list">
+        <text>配送时间</text>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view>{{date}}</view>
+        </picker>
+      </view>
+      <view class="textarea-list">
+        <text>留言</text>
+        <textarea placeholder="请输入留言" />
+      </view>
+      <view class="info-list">
+        <text>卡片签名</text>
+        <input type="text" placeholder="请输入卡片签名" />
+      </view>
+      <view class="textarea-list">
+        <text>特殊要求</text>
+        <textarea placeholder="请输入特殊要求" />
+      </view>
+    </view>
+    <view class="order-button">
+      <button type="warn" size="default"> 提交订单 </button>
+    </view>
+    <view bindtap="backFor" class="backFor">返回上一步</view>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+/* pages/order/order.wxss */
+.order-wrap{
+    padding: 0 28rpx;
+    font-size: 32rpx;
+}
+.order-block{
+    margin-top:30rpx;
+}
+.block-title{
+    font-size: 36rpx;
+    padding:8rpx 0;
+    display: block;
+    width:100%;
+}
+.info-list{
+    height: 100rpx;
+    line-height: 100rpx;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+}
+.info-list text{
+    height: 100rpx;
+    line-height: 100rpx;
+    display: block;
+    width: 200rpx;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.info-list input,.info-list picker{
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: right;
+    margin-left: 200rpx;
+    display: block;
+    color: #cdccd2;
+}
+.order-block .textarea-list text{
+    margin: 30rpx 0;
+    display: inline-block;
+}
+.order-block textarea {
+    height: 100px;
+    border: 1px #f4f4f4 solid;
+    border-radius: 3px;
+    padding:8rpx 16rpx;
+}
+.order-button{
+    padding: 30rpx;
+}
+.choose-option text{
+    display: block;
+    margin: 10rpx 0 20rpx;
+}
+.choose-option label radio{
+    margin-right: 30rpx;
+    margin-bottom: 14rpx;
+}
+.backFor{
+    text-align: right;
+}

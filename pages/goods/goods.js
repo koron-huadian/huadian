@@ -1076,6 +1076,7 @@ Page({
                     }
                 ]
             }
+<<<<<<< HEAD
         ],
         toView: '0',
         scrollTop: 100,
@@ -1092,11 +1093,22 @@ Page({
                 if (food.sellCount) {
                     foods.push(food);
                     console.log(foods);
+=======
+        ]
+    },
+    selectFoods() {
+        let foods = [];
+        this.goods.forEach((good) => {
+            good.foods.forEach((food) => {
+                if (food.count) {
+                    foods.push(food);
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b
                 }
             });
         });
         return foods;
     },
+<<<<<<< HEAD
     selectMenu: function (e) {
         var index = e.currentTarget.dataset.itemIndex;
         this.setData({
@@ -1120,6 +1132,8 @@ Page({
             })
         }
     },
+=======
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b
     onLoad: function (options) {
         // 页面初始化 options为页面跳转所带来的参数
     },

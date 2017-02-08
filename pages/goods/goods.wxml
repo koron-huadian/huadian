@@ -1,15 +1,24 @@
 
 <!--pages/order/order.wxml-->
 <view class="goods">
+<<<<<<< HEAD
   <view class="menu-wrapper">
     <view>
       <view wx:for="{{goods}}" class="menu-item border-1px" bindtap="selectMenu" data-item-index="{{index}}">
         <view class="text">
           <view v-show="item.type>0" class="icon"></view>{{item.name}}
+=======
+  <view class="menu-wrapper" ref="menuWrapper">
+    <view>
+      <view wx:for="{{goods}}" class="menu-item border-1px" :class="{'current':currentIndex === index}">
+        <view class="text">
+          <view v-show="item.type>0" class=" icon" :class="classMap[item.type]"></view>{{item.name}}
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b
         </view>
       </view>
     </view>
   </view>
+<<<<<<< HEAD
   <scroll-view scroll-y="true" style="height: 500px;" scroll-into-view="{{toView}}" class="foods-wrapper">
     <view wx:for="{{goods}}" class="food-list food-list-hook">
       <view id="order{{index}}" class="title">{{item.name}}</view>
@@ -42,10 +51,36 @@
                 {{food.count}}
               </view> 
               <view class="iconfont icon-jia cart-add" bindtap="addCart"></view> 
+=======
+  <view class="foods-wrapper" ref="foodWrapper">
+    <view>
+      <view wx:for="{{goods}}" class="food-list food-list-hook">
+        <view class="title">{{item.name}}</view>
+        <view>
+          <view wx:for="{{item.foods}}" class="food-item" bindtap="selectFood(food, $event)" wx:for-item="food">
+            <view class="icon">
+              <image src="{{food.icon}}" style="width: 57px;height: 57px"></image>
+            </view>
+            <view class="content">
+              <view class="name">{{food.name}}</view>
+              <p class="desc">{{food.description}}</p>
+              <view class="extra">
+                <view class="count">月售{{food.sellCount}}</view>
+                <view class="count">好评{{food.rating}}</view>
+              </view>
+              <view class="price">
+                <view class="now">￥{{food.price}}</view>
+                <view class="old" wx:if="{{food.oldPrice}}">￥{{food.oldPrice}}</view>
+              </view>
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b
             </view>
           </view>
         </view>
       </view>
     </view>
+<<<<<<< HEAD
   </scroll-view>
+=======
+  </view>
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b
 </view>

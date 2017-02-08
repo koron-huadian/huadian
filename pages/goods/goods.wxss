@@ -133,6 +133,7 @@
   right: 0;
   bottom: 12px;
 }
+<<<<<<< HEAD
 
 /* cartControl 样式 */
 
@@ -189,3 +190,5 @@
   vertical-align: top;
   color: rgb(0, 160, 220, 0.2);
 }
+=======
+>>>>>>> 0688f81e4c6f022ab8b592ac40c024a85edac68b

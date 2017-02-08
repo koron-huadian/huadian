@@ -1092,18 +1092,9 @@ Page({
                 if (food.sellCount) {
                     foods.push(food);
                     console.log(foods);
-        ]
-    },
-    selectFoods() {
-        let foods = [];
-        this.goods.forEach((good) => {
-            good.foods.forEach((food) => {
-                if (food.count) {
-                    foods.push(food);
                 }
-            });
-        });
-        return foods;
+            })
+        })
     },
     selectMenu: function (e) {
         var index = e.currentTarget.dataset.itemIndex;
@@ -1124,7 +1115,7 @@ Page({
             })
         } else {
             this.setData({
-                foodCounts: foodCounts ++
+                foodCounts: foodCounts++
             })
         }
     },

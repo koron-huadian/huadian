@@ -1079,7 +1079,7 @@ Page({
         ],
         toView: '0',
         scrollTop: 100,
-        foodCounts: ''
+        foodCounts: 1
     },
     selectFoods: function (event) {
         var food = event.currentTarget.dataset.food;
@@ -1105,19 +1105,22 @@ Page({
     decreaseCart: function (e) {
         var foodCount = e.currentTarget.dataset.food.count;
         this.setData({
-            foodCounts: foodCount--
+            foodCounts: foodCount - 1
         })
     },
-    addCart(event) {
-        if (!this.data.foodCounts) {
-            this.setData({
-                foodCounts: 1
-            })
-        } else {
-            this.setData({
-                foodCounts: foodCounts++
-            })
-        }
+    addCart(e) {
+        // var foodCount = e.currentTarget.dataset.food.count;
+        console.log(e);
+        // if (!this.data.foodCounts) {
+        //     this.setData({
+        //         foodCounts: 1
+        //     })
+        // } else {
+        //     this.setData({
+        //         foodCounts: foodCount + 1
+        //     })
+        //     console.log(foodCount)
+        // }
     },
     onLoad: function (options) {
         // 页面初始化 options为页面跳转所带来的参数

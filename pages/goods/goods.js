@@ -12,6 +12,7 @@ Page({
                         "oldPrice": "",
                         "description": "咸粥",
                         "sellCount": 229,
+                        "Count": 0,
                         "rating": 100,
                         "info": "一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足",
                         "ratings": [
@@ -46,6 +47,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 188,
+                        "Count": 0,
                         "rating": 96,
                         "ratings": [
                             {
@@ -80,6 +82,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 124,
+                        "Count": 0,
                         "rating": 85,
                         "info": "",
                         "ratings": [
@@ -114,6 +117,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 114,
+                        "Count": 0,
                         "rating": 91,
                         "info": "",
                         "ratings": [
@@ -148,6 +152,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 101,
+                        "Count": 0,
                         "rating": 78,
                         "info": "",
                         "ratings": [
@@ -182,6 +187,7 @@ Page({
                         "oldPrice": "",
                         "description": "甜粥",
                         "sellCount": 91,
+                        "Count": 0,
                         "rating": 100,
                         "ratings": [
                             {
@@ -215,6 +221,7 @@ Page({
                         "oldPrice": "",
                         "description": "甜粥",
                         "sellCount": 86,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -249,6 +256,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 84,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -283,6 +291,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 81,
+                        "Count": 0,
                         "rating": 91,
                         "info": "",
                         "ratings": [
@@ -317,6 +326,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 80,
+                        "Count": 0,
                         "rating": 93,
                         "info": "",
                         "ratings": [
@@ -357,6 +367,7 @@ Page({
                         "oldPrice": 36,
                         "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
                         "sellCount": 17,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -383,6 +394,7 @@ Page({
                         "oldPrice": 10,
                         "description": "",
                         "sellCount": 15,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -416,6 +428,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 43,
+                        "Count": 0,
                         "rating": 92,
                         "info": "",
                         "ratings": [
@@ -443,6 +456,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 29,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -470,6 +484,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 15,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -503,6 +518,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 84,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -537,6 +553,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 28,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -577,6 +594,7 @@ Page({
                         "oldPrice": "",
                         "description": "红豆薏米粥,三鲜干蒸烧卖,拍黄瓜",
                         "sellCount": 3,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -597,6 +615,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 12,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -623,6 +642,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 1,
+                        "Count": 0,
                         "rating": "",
                         "info": "",
                         "ratings": [],
@@ -635,6 +655,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 7,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -669,6 +690,7 @@ Page({
                         "oldPrice": 10,
                         "description": "",
                         "sellCount": 15,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -702,6 +724,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 188,
+                        "Count": 0,
                         "rating": 96,
                         "info": "",
                         "ratings": [
@@ -736,6 +759,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 124,
+                        "Count": 0,
                         "rating": 85,
                         "info": "",
                         "ratings": [
@@ -770,6 +794,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 114,
+                        "Count": 0,
                         "rating": 91,
                         "info": "",
                         "ratings": [
@@ -804,6 +829,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 101,
+                        "Count": 0,
                         "rating": 78,
                         "info": "",
                         "ratings": [
@@ -838,6 +864,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 80,
+                        "Count": 0,
                         "rating": 93,
                         "info": "",
                         "ratings": [
@@ -878,6 +905,7 @@ Page({
                         "oldPrice": "",
                         "description": "咸粥",
                         "sellCount": 229,
+                        "Count": 0,
                         "rating": 100,
                         "ratings": [
                             {
@@ -911,6 +939,7 @@ Page({
                         "oldPrice": "",
                         "description": "甜粥",
                         "sellCount": 91,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -945,6 +974,7 @@ Page({
                         "oldPrice": "",
                         "description": "甜粥",
                         "sellCount": 86,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -979,6 +1009,7 @@ Page({
                         "oldPrice": "",
                         "description": "",
                         "sellCount": 81,
+                        "Count": 0,
                         "rating": 91,
                         "info": "",
                         "ratings": [
@@ -1013,6 +1044,7 @@ Page({
                         "oldPrice": "",
                         "description": "咸粥",
                         "sellCount": 56,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -1046,6 +1078,7 @@ Page({
                         "oldPrice": "",
                         "description": "咸粥",
                         "sellCount": 33,
+                        "Count": 0,
                         "rating": 100,
                         "info": "",
                         "ratings": [
@@ -1079,48 +1112,86 @@ Page({
         ],
         toView: '0',
         scrollTop: 100,
-        foodCounts: 1
+        foodCounts: 0,
+        totalPrice: 0,// 总价格
+        totalCount: 0, // 总商品数
+        carArray: [],
     },
-    selectFoods: function (event) {
-        var food = event.currentTarget.dataset.food;
-        console.log(food);
-        console.log(this.data.goods)
-        let foods = [];
-        this.data.goods.forEach((good) => {
-            good.foods.forEach((food) => {
-                // console.log(food)
-                if (food.sellCount) {
-                    foods.push(food);
-                    console.log(foods);
-                }
-            })
-        })
-    },
+    // selectFoods: function (event) {
+    //     var food = event.currentTarget.dataset.food;
+    //     console.log(food);
+    //     console.log(this.data.goods)
+    //     let foods = [];
+    //     this.data.goods.forEach((good) => {
+    //         good.foods.forEach((food) => {
+    //             // console.log(food)
+    //             if (food.sellCount) {
+    //                 foods.push(food);
+    //                 console.log(foods);
+    //             }
+    //         })
+    //     })
+    // },
     selectMenu: function (e) {
         var index = e.currentTarget.dataset.itemIndex;
         this.setData({
             toView: 'order' + index.toString()
         })
+        console.log(this.data.toView);
     },
+    //移除商品
     decreaseCart: function (e) {
-        var foodCount = e.currentTarget.dataset.food.count;
-        this.setData({
-            foodCounts: foodCount - 1
+        var index = e.currentTarget.dataset.itemIndex;
+        var parentIndex = e.currentTarget.dataset.parentindex;
+        this.data.goods.forEach((good) => {
+            good.foods.forEach((food) => {
+                if (food.Count > 0) {
+                    var obj = { price: price, num: num, mark: mark };
+                    var carArray1 = this.data.carArray.filter(item => item.mark != mark);
+                    carArray1.push(obj);
+                    this.data.goods[parentIndex].foods[index].Count--
+                    this.setData({
+                        goods: this.data.goods
+                    })
+                }
+            })
         })
+        if (this.data.foodCounts > 0) {
+            this.setData({
+                foodCounts: foodCount - 1
+            })
+        }
     },
+    //添加到购物车
     addCart(e) {
-        // var foodCount = e.currentTarget.dataset.food.count;
-        console.log(e);
-        // if (!this.data.foodCounts) {
-        //     this.setData({
-        //         foodCounts: 1
-        //     })
-        // } else {
-        //     this.setData({
-        //         foodCounts: foodCount + 1
-        //     })
-        //     console.log(foodCount)
-        // }
+        var index = e.currentTarget.dataset.itemIndex;
+        var parentIndex = e.currentTarget.dataset.parentindex;
+        this.data.goods[parentIndex].foods[index].Count++;
+        var mark = 'a' + index + 'b' + parentIndex
+        var price = this.data.goods[parentIndex].foods[index].price;
+        var num = this.data.goods[parentIndex].foods[index].Count;
+        var obj = { price: price, num: num, mark: mark };
+        var carArray1 = this.data.carArray.filter(item => item.mark != mark)
+        carArray1.push(obj)
+        this.setData({
+            carArray: carArray1,
+            goods: this.data.goods
+        })
+        this.calTotalPrice()
+    },
+    //计算总价
+    calTotalPrice: function () {
+        var carArray = this.data.carArray;
+        var totalPrice = 0;
+        var totalCount = 0;
+        for (var i = 0; i < carArray.length; i++) {
+            totalPrice += carArray[i].price * carArray[i].num;
+            totalCount += carArray[i].num
+        }
+        this.setData({
+            totalPrice: totalPrice,
+            totalCount: totalCount
+        });
     },
     onLoad: function (options) {
         // 页面初始化 options为页面跳转所带来的参数
